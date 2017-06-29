@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UnitConverter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCw-Y0-VbN">
+                                <rect key="frame" x="16" y="54" width="343" height="89"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="54"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDN-KQ-kAg">
+                                <rect key="frame" x="0.0" y="264" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="lUG-be-OEF" id="Eea-sx-5WP"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vv2-cP-59H"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cCw-Y0-VbN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TK6-Ba-1a5"/>
+                            <constraint firstItem="aDN-KQ-kAg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YR6-J9-l9a"/>
+                            <constraint firstItem="cCw-Y0-VbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cGa-WN-jU9"/>
+                            <constraint firstItem="cCw-Y0-VbN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="34" id="fpI-kM-yoF"/>
+                            <constraint firstItem="cCw-Y0-VbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="izE-l5-EdL"/>
+                            <constraint firstItem="aDN-KQ-kAg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="38.5" id="sQQ-Nx-uBe"/>
+                            <constraint firstItem="aDN-KQ-kAg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uMq-A9-kay"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="celsiusPicker" destination="aDN-KQ-kAg" id="vb0-ah-Hbo"/>
+                        <outlet property="temperatureLabel" destination="cCw-Y0-VbN" id="rtX-KC-T06"/>
+                        <outlet property="temperatureRange" destination="lUG-be-OEF" id="2cw-gm-96e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="lUG-be-OEF" userLabel="TemperatureRange" customClass="TemperatureRange" customModule="UnitConverter"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

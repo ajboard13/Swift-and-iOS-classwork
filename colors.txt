@@ -1,0 +1,49 @@
+MELISSA WEBSTER - MOBILE DEVELOPER @ jācapps
+LinkedIn: https://www.linkedin.com/in/mdwdev/
+Email: mwebdesign@icloud.com
+
+
+3/2 tutorial video ---- https://www.youtube.com/watch?v=-KOFYD4Tbvk
+
+
+ICONS RESOURCES!
+https://icons8.com/
+https://material.io/icons/
+
+
+
+COLORS!
+http://www.rapidtables.com/web/color/RGB_Color.htm
+
+use to update ---- UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1)
+
+
+black:      red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1
+white:      red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1
+blue:       red: 0.0/255.0, green: 0.0/255.0, blue: 255.0/255.0, alpha: 1
+red:        red: 255.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1
+green:      red: 0.0/255.0, green: 255.0/255.0, blue: 0.0/255.0, alpha: 1
+
+yellow:     red: 255.0/255.0, green: 255.0/255.0, blue: 0.0/255.0, alpha: 1
+cyan        red: 0.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1
+magenta     red: 255.0/255.0, green: 0.0/255.0, blue: 255.0/255.0, alpha: 1
+
+silver:     red: 192.0/255.0, green: 192.0/255.0, blue: 192.0/255.0, alpha: 1
+gray:       red: 128.0/255.0, green: 128.0/255.0, blue: 128.0/255.0, alpha: 1
+maroon:     red: 128.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1
+olive:      red: 128.0/255.0, green: 128.0/255.0, blue: 0.0/255.0, alpha: 1
+dk green:   red: 0.0/255.0, green: 128.0/255.0, blue: 0.0/255.0, alpha: 1
+purple:     red: 128.0/255.0, green: 0.0/255.0, blue: 128.0/255.0, alpha: 1
+teal:       red: 0.0/255.0, green: 128.0/255.0, blue: 128.0/255.0, alpha: 1
+navy:       red: 0.0/255.0, green: 0.0/255.0, blue: 128.0/255.0, alpha: 1
+
+
+OTHER GOOD RESOURCES:
+https://github.com/SwifterSwift/SwifterSwift
+https://www.hackingwithswift.com/read
+https://developer.apple.com/swift/resources/
+https://www.raywenderlich.com/category/swift
+https://www.meetup.com/MotorCityCocoaHeads/
+
+Maybe?
+https://www.ampower.me/article/IOS/Top-100-Best-Blogs-for-iOS-Developers-to-Learn-and-Gain-Insights-32-438905
